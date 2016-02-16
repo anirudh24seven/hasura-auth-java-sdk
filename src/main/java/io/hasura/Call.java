@@ -1,11 +1,8 @@
-package io.hasura.core;
+package io.hasura;
 
 import java.io.IOException;
-import okhttp3.MediaType;
+
 import okhttp3.Request;
-import okhttp3.ResponseBody;
-import com.google.gson.*;
-import java.lang.reflect.Type;
 
 public class Call<T, E extends Exception> {
 

@@ -1,10 +1,10 @@
-package io.hasura.core;
-
-import io.hasura.auth.*;
+package io.hasura;
 
 import org.junit.Test;
-import java.util.List;
+
 import java.io.IOException;
+
+import io.hasura.auth.LoginResponse;
 
 public class TestLogin {
 

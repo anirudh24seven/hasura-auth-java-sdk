@@ -1,6 +1,9 @@
-package io.hasura.auth;
+package io.hasura;
 
-import io.hasura.core.*;
+import io.hasura.auth.LoginRequest;
+import io.hasura.auth.LoginResponse;
+import io.hasura.auth.RegisterRequest;
+import io.hasura.auth.RegisterResponse;
 
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
